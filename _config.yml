@@ -372,6 +372,12 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
 # -----------------------------------------------------------------------------
+# External Blog Posts
+# -----------------------------------------------------------------------------
+external_sources:
+  - name: oge.mit.edu  # name of the source (arbitrary string)
+    rss_url: https://oge.mit.edu/making-kofta-in-an-air-fryer/
+# -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
 
