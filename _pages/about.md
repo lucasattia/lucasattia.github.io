@@ -19,8 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am PhD candidate in chemical engineering researching at [MIT](https://cheme.mit.edu/). I work on designing novel materials and processes for drug delivery and formulation by combining expertise in soft materials, nanotechnology, and molecular modeling and simulation. I am advised by Professor [Patrick S. Doyle] (https://doylegroup.mit.edu/). I am passionate about integrating computational modeling and experiments to create and understand innovative macromolecular and composite materials. I am a strong communicator passionate about fostering collaboration and mentorship in research environments.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I did my undergraduate degree at the University of Delaware in the department of Chemical and Biomolecular Engineering, with minors in Computer Science and Chemistry. There, I worked with Professor [Catherine A. Fromen](https://sites.udel.edu/cfromen/research/) on nanoparticle drug delivery and fluid transport modeling through cellular foams. 
