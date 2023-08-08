@@ -2,7 +2,7 @@
 layout: page
 title: Orthogonal gelations for core-shell hydrogel particles
 description: combining different gelation mechanisms to make core-shell hydroel structures with applications in oral drug delivery
-img: assets/img/12.jpg
+img: assets/img/particle.png
 importance: 1
 category: work
 related_publications: einstein1956investigations, einstein1950meaning
