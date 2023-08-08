@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Orthogonal gelations for core-shell hydrogel particles
+description: combining different gelation mechanisms to make core-shell hydroel structures with applications in oral drug delivery
 img: assets/img/12.jpg
 importance: 1
 category: work
