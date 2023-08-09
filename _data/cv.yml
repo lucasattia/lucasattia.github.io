@@ -4,7 +4,7 @@
     - name: Full Name
       value: Lucas Attia
     - name: Date of Birth
-      value: 14th March 1879
+      value: 21th March 1999
     - name: Languages
       value: English
 
@@ -41,12 +41,6 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
 
     - title: Director
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
@@ -82,14 +76,19 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Topic 1. Molecular modelling
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Description 1. Polymer simulation 
+        - Description 2. Models for organic crystals
+    - title: Topic 2. Nanomaterials
       items:
-        - Description 1.
-        - Description 2.
+        - Description 1. Organic nancrystals for drug delivery  
+        - Description 2. Nanoemulsions 
+    - title: Topic 3. Soft materials
+      items:
+        - Description 1. Hydrogels  
+        - Description 2. Polymer solutions 
+
 
 - title: Other Interests
   type: list
