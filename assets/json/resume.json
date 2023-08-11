@@ -11,11 +11,6 @@
       "region": "Massachusetts"
     },
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
     ]
   },
   "work": [
@@ -29,7 +24,7 @@
       "highlights": [
         "Polymers"
       ]
-      "image":
+      "image": assets/img/2560px-MIT_logo.svg.png
     }
   ],
   "volunteer": [],
