@@ -24,7 +24,6 @@
       "highlights": [
         "Polymers"
       ]
-      "image": assets/img/2560px-MIT_logo.svg.png
     }
   ],
   "volunteer": [],
@@ -44,25 +43,28 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "National Science Foundation Graduate Research Program Fellowship (NSF GRFP)",
+      "date": "2021 (awarded)",
+      "awarder": "National Science Foundation",
+      "summary": ""
+    }
+        {
+      "title": "Department of Energy Computational Science Graduate Fellowhip (DOE CSGF)",
+      "date": "2021-2026",
+      "awarder": "Department of Energy",
+      "summary": ""
+    }
+        {
+      "title": "Barry M. Goldwater Scholarship",
+      "date": "2020",
+      "awarder": "Barry M. Goldwater Foundation",
+      "summary": ""
     }
   ],
   "certificates": [],
   "publications": [],
   "skills": [],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
+  "languages": [],
   "interests": [],
   "references": [],
   "projects": []
