@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Interfacial competition on drug nanocrystal surfaces
-description: a project with no image
-img:
-importance: 4
-category: thesis
+title: How do 
+description: understanding drug nanoparticle structure using molecular simulations
+img: assets/img/md.png
+importance: 2
+category: work
 ---
 
 
