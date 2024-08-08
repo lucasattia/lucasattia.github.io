@@ -1,12 +1,12 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Lucas Attia
-    - name: Date of Birth
-      value: 21th March 1999
-    - name: Languages
-      value: English
+#- title: General Information
+#  type: map
+#  contents:
+#    - name: Full Name
+#      value: Lucas Attia
+#    - name: Date of Birth
+#      value: 21th March 1999
+#    - name: Languages
+#      value: English
 
 - title: Education
   type: time_table
@@ -15,27 +15,24 @@
       institution: Massachusetts Institute of Technology, Cambridge MA, USA
       year: 2021-2026
       description:
-        - Description 1. Working in the group of Patrick S. Doyle
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Thesis: Hydrogel-templated drug nanoparticles for next generation drug formulations
+        - Advised by Patrick S. Doyle
     - title: BSE
       institution: University of Delaware, Newark DE, USA
       year: 2017-2021
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis: Computational fluid dynamics simulations
+        - Advised by Catherine A. Fromen
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: PhD Researcher
+      institution: Massachusetts Institute of Technology
+      year: 2021-2026
       description:
-        - Description 1.
+        - Developed novel process to generate and stabilize drug nanoparticles inside hydrogel pores in order to improve the oral bioavailability of hydrophobic small molecule drugs. 
+
         - Description 2.
         - title: Description 3.
           contents:
