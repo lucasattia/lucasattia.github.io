@@ -122,9 +122,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog Posts # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Updates on research, grad school and life 
+blog_name: News and Media # blog_name will be displayed in your blog page
+blog_nav_title: news # your blog must have a title for it to be displayed in the nav bar
+blog_description: sharing news highlights of my work, media appearances, and blog posts
 permalink: /blog/:year/:title/
 
 # Pagination
