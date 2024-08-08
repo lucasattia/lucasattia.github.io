@@ -59,7 +59,19 @@
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
+- title: Honors and Awards 
+  type: time_table
+  contents:
+    - year: 2024
+      items: 
+        - Merck best poster award, Controlled Release Society Annual Meeting and Exposition
+        - Langmuir Graduate Award, American Chemical Society Colloid and Surface Science Symposium
+        - Best graduate student presentation, Massachussetts Institute of Technology Department of Chemical Engineering
+    - year: 2024
+      items: 
+        - Max Planck Medal
+
+- title: Fellowships and Scholarships
   type: time_table
   contents:
     - year: 1921
