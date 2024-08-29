@@ -2,7 +2,7 @@
 layout: page
 title: Making better inhaled therapies
 description: using MOF nanoparticles to deliver drugs to the lungs
-img: assets/img/inhaled.png
+img: assets/img/inhaled.jpg
 importance: 3
 category: work
 related_publications: Jarai2020-tn, Decker2019-kv
