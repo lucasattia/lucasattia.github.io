@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2020-05-13 15:59:00-0400
+date: 2024-06-30 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Check out this UDaily feature which covers my [Goldwater Scholarship](https://www.udel.edu/udaily/2020/may/lucas-attia-goldwater-scholar/)!
+I was awarded one of the Langmuir Graduate Awards for my presentation on my recent ACS AMI paper at the 2024 [ACS Colloids and Surface Science Symposium](https://www.colloids2024.org/)!
 
