@@ -5,7 +5,7 @@ description: understanding drug nanoparticle structure using molecular simulatio
 img: assets/img/md.png
 importance: 2
 category: work
-related_publications: Attia2024-ami
+related_publications: Attia2024-qn
 ---
 
 This paper was the second in my PhD, and was a really exciting foray into using molecular dynamics simulations to understand material systems. A previous PhD student had observed that when we make drug nanoparticles using the technology my group has developed, the 'crystallinity' (or percentage of the nanoparticle that is crystalline vs. amorphous, see the image below) was extremely difficult to control. 
