@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How do 
+title: how can we control drug nanoparticle crystallinity? 
 description: understanding drug nanoparticle structure using molecular simulations
 img: assets/img/md.png
 importance: 2
