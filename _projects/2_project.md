@@ -2,11 +2,12 @@
 layout: page
 title: Making better inhaled therapies
 description: using MOF nanoparticles to deliver drugs to the lungs
-img: assets/img/md.png
-importance: 2
+img: assets/img/inhaled.png
+importance: 3
 category: work
+related_publications: Jarai2020-tn, Decker2019-kv
 ---
-
+This was the first research project I worked on as an undergraduate researcher in the Fromen lab. The lab is really motivated to work on pulmonary drug delivery, and a massive problem is enginee
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
