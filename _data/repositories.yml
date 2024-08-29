@@ -1,10 +1,8 @@
 github_users:
   - lucasattia
-  - JacksonBurns
-  - BlauGroup
 github_repos:
   - NanoParticleTools
-  - drug-surface-MD
-  - fastSolv
-  - ML-for-battery-electrolyes
-  - lucasattia.github.io
+  - lucasattia/drug-surface-MD
+  - BlauGroupJacksonBurns/fastsolv 
+  - lucasattia/ML-for-battery-electrolyes
+  - lucasattia/lucasattia.github.io
