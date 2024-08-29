@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Dual gelations to synthesize core-shell hydrogel particles
-description: making core-shell hydrogel particles for applications in oral drug delivery
+title: a better way to make core-shell hydrogel particles
+description: 'dual gelations' synthesize core-shell particles in a single step
 img: assets/img/particle.png
 importance: 1
 category: work
