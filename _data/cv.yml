@@ -15,14 +15,16 @@
       institution: Massachusetts Institute of Technology, Cambridge MA, USA
       year: 2021-2026
       description:
-        - Thesis: Hydrogel-templated drug nanoparticles for next generation drug formulations
+        - Thesis- Nanoemulsion-templated drug nanoparticles for advanced oral formulation
         - Advised by Patrick S. Doyle
+        - Minor- Machine Learning
     - title: BSE
       institution: University of Delaware, Newark DE, USA
       year: 2017-2021
       description:
-        - Thesis: Computational fluid dynamics simulations
+        - Thesis- Computational Modeling of Fluid Flow through Open Cellular Foams and Lattice Structures
         - Advised by Catherine A. Fromen
+        - Minrors- Computer Science, Chemistry
 
 - title: Experience
   type: time_table
@@ -31,15 +33,14 @@
       institution: Massachusetts Institute of Technology
       year: 2021-2026
       description:
-        - Developed novel process to generate and stabilize drug nanoparticles inside hydrogel pores in order to improve the oral bioavailability of hydrophobic small molecule drugs. 
-
+        - Simulated the effects of excipients on nanoparticle crystallinity using atomistic molecular dynamics (\href{https://github.com/lucasattia/drug-surface-MD/blob/main/README.md}{open source code})
         - Description 2.
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
 
-    - title: Director
+    - title: Machine Learning Intern 
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
       year: 1917-1933
 
