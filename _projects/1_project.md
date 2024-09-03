@@ -6,6 +6,7 @@ img: assets/img/particle.png
 importance: 1
 category: work
 related_publications: Attia2023-bc
+published: false
 ---
 This project, the first in my PhD, focused on figuring out a clever way to engineer core-shell hydrogel drug carrier particles. Core-shell particles are extremely useful in oral drug delivery. They can unlock sustained and delayed release profiles, which is important for instestinal and colonic targeting applications. They can also formulate fixed dosage combination (FDC) products, structuring different active ingredients in the core and the shell. Despite these useful applications, conventional methods for engineering core-shell carriers for pharmaceutical applications are limited, relying on organic solvents, high processing temperatures, and are often unable to structure drugs in the shell (see below). 
 <div class="row">
