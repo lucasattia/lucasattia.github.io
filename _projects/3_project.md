@@ -28,7 +28,13 @@ Despite its importance, solubility is notoriously difficult to predict. There ha
 $$
 
 The combination of this training approach, great model architectures, and compiled literature datasets gave us state-of-the-art performance. We rigorously show that our models achieve average accuracy that approaches the limit of experimental variability, the noise floor of the measurements themselves. Excitingly, our model (fastsolv) is quickly being adopted in industry, most notably by [Rowan Scientific](https://rowansci.com/tools/solubility) ([docs here](https://docs.rowansci.com/science/workflows/solubility)). We’ve also released an [open-source deployment of FastSolv](http://fastsolv.mit.edu/), making it accessible to the broader community for both research and practical applications. 
-
-{% include figure.html path="assets/img/fastsolv.PNG" title="Solubility prediction" class="img-fluid rounded z-depth-1 mx-auto d-block" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fastsolv.PNG" title="Solubility prediction" class="img-fluid rounded z-depth-1 mx-auto d-block" %}
+    </div>
+</div>
+<div class="caption">
+    Deployed model GUI
+</div>
 
 This project started as a class project in an [MIT ML course](https://computing.mit.edu/cross-cutting/common-ground-for-computing-education/common-ground-subjects/c01-c51-modeling-machine-learning/), so it's been awesome to see it develop into a useful tool for the community. 
