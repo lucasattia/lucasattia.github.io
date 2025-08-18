@@ -1,6 +1,6 @@
 ---
 layout: page
-title: fastsolv: accurate organic solubility prediction 
+title: "fastsolv accurate organic solubility prediction" 
 description: developing accurate cheminformatics models for solubility prediction 
 img: assets/img/fastsolv.PNG
 importance: 3
