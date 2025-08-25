@@ -5,7 +5,7 @@ description: developing accurate cheminformatics models for solubility predictio
 img: assets/img/fastsolv.PNG
 importance: 3
 category: work
-related_publications: attia2024organic
+related_publications: attia2025data
 ---
 
 Most of my thesis is motivated by poor aqueous solubility of hydrophobic drugs. However, organic solubility is also a crucial property, particularly for synethic/process chemistry and formulation processing. Measuring solubility accurately is extremely challenging, and experimental variability is high. 
