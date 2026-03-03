@@ -5,7 +5,7 @@ projects:
     name: "drug-surface-MD"
     url: "https://github.com/lucasattia/drug-surface-MD"
     description: "Molecular dynamics simulations of interfacial competition of excipients on drug surfaces"
-    role: "Sole Developer"
+    role: "Developer"
     languages:
       - name: "Python"
         icon: "fab fa-python"
@@ -13,9 +13,9 @@ projects:
       - name: "GROMACS"
         icon: "fas fa-atom"
         color: "#E74C3C"
-      - name: "MDAnalysis"
-        icon: "fas fa-wave-square"
-        color: "#00A4D3"
+      - name: "Bash"
+        icon: "fas fa-terminal"
+        color: "#4EAA25"
   - id: 2
     name: "fastsolv"
     url: "https://github.com/lucasattia/fastsolv"
@@ -25,6 +25,9 @@ projects:
       - name: "Python"
         icon: "fab fa-python"
         color: "#3776AB"
+      - name: "PyTorch"
+        icon: "fas fa-brain"
+        color: "#EE4C2C"
       - name: "Jupyter"
         icon: "fas fa-book-open"
         color: "#F37626"
@@ -41,15 +44,12 @@ projects:
       - name: "PyTorch"
         icon: "fas fa-brain"
         color: "#EE4C2C"
-      - name: "jobflow"
-        icon: "fas fa-network-wired"
-        color: "#FF6B6B"
 
   - id: 4
     name: "crystalPBM"
     url: "https://github.com/lucasattia/crystalPBM"
     description: "Population balance model for simulating and analyzing batch crystallization processes"
-    role: "Sole Developer"
+    role: "Developer"
     languages:
       - name: "Python"
         icon: "fab fa-python"
@@ -69,9 +69,7 @@ projects:
       - name: "RDKit"
         icon: "fas fa-flask"
         color: "#9467BD"
-      - name: "Jupyter"
-        icon: "fas fa-book-open"
-        color: "#F37626"
+
   - id: 6
     name: "fastprop"
     url: "https://github.com/lucasattia/fastprop"
@@ -84,9 +82,6 @@ projects:
       - name: "PyTorch"
         icon: "fas fa-brain"
         color: "#EE4C2C"
-      - name: "RDKit"
-        icon: "fas fa-flask"
-        color: "#9467BD"
 
 
 # Configuration options
