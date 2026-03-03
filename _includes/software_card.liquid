@@ -1,77 +1,57 @@
-{% assign software_data = site.data.software %}
-{% assign projects = software_data.projects %}
-{% assign config = software_data.config %}
-
-{% if config.max_display %}
-  {% assign projects = projects | limit: config.max_display %}
-{% endif %}
-
+{% comment %}
+  Single-card include — rendered once per project by repositories.md.
+  Usage: {% include software_card.liquid project=project %}
+{% endcomment %}
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap');
-
-  .sw-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.25rem;
-    margin: 2rem 0;
-  }
-
-  @media (max-width: 992px) {
-    .sw-grid { grid-template-columns: repeat(2, 1fr); }
-  }
-
-  @media (max-width: 600px) {
-    .sw-grid { grid-template-columns: 1fr; }
-  }
-
   .sw-card {
     position: relative;
     background: #fff;
-    border: 2px solid #111;
-    border-radius: 0;
+    border: 1.5px solid #d0d0d0;
+    border-radius: 6px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
     text-decoration: none !important;
     color: inherit !important;
   }
 
   .sw-card:hover {
-    transform: translate(-4px, -4px);
-    box-shadow: 6px 6px 0px #111;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+    border-color: #999;
     text-decoration: none !important;
   }
 
   .sw-card-header {
-    background: #111;
-    padding: 1rem 1.1rem 0.85rem;
+    background: #f0f0f0;
+    padding: 0.85rem 1.1rem 0.75rem;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     gap: 0.5rem;
+    border-bottom: 1.5px solid #d8d8d8;
   }
 
   .sw-card-name {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: 1.05rem;
-    color: #fff;
-    line-height: 1.2;
-    letter-spacing: -0.01em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #1a1a1a;
+    line-height: 1.25;
     word-break: break-word;
   }
 
   .sw-github-icon {
-    color: #aaa;
+    color: #888;
     font-size: 1rem;
-    margin-top: 2px;
+    margin-top: 1px;
     flex-shrink: 0;
     transition: color 0.15s;
   }
 
   .sw-card:hover .sw-github-icon {
-    color: #fff;
+    color: #333;
   }
 
   .sw-card-body {
@@ -83,10 +63,10 @@
   }
 
   .sw-description {
-    font-family: 'DM Sans', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
     font-size: 0.875rem;
     font-weight: 400;
-    color: #333;
+    color: #444;
     line-height: 1.55;
     margin: 0;
     flex: 1;
@@ -98,8 +78,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 0.4rem;
-    padding-top: 0.5rem;
-    border-top: 1px solid #eee;
+    padding-top: 0.6rem;
+    border-top: 1px solid #ebebeb;
   }
 
   .sw-badges {
@@ -109,87 +89,48 @@
   }
 
   .sw-badge {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.7rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    font-size: 0.68rem;
     font-weight: 500;
-    padding: 0.2rem 0.5rem;
-    border-radius: 2px;
-    letter-spacing: 0.02em;
+    padding: 0.18rem 0.45rem;
+    border-radius: 3px;
+    letter-spacing: 0.01em;
     white-space: nowrap;
   }
 
   .sw-role {
-    font-family: 'Syne', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
     font-size: 0.65rem;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    padding: 0.2rem 0.55rem;
-    border: 1.5px solid #111;
-    color: #111;
+    letter-spacing: 0.07em;
+    padding: 0.18rem 0.5rem;
+    border: 1.5px solid #bbb;
+    color: #555;
     white-space: nowrap;
-    border-radius: 2px;
+    border-radius: 3px;
     flex-shrink: 0;
-  }
-
-  .sw-more-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-top: 1.75rem;
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    padding: 0.65rem 1.4rem;
-    background: #111;
-    color: #fff !important;
-    border: 2px solid #111;
-    text-decoration: none !important;
-    transition: background 0.15s, color 0.15s, transform 0.15s, box-shadow 0.15s;
-    border-radius: 0;
-  }
-
-  .sw-more-btn:hover {
-    background: #fff;
-    color: #111 !important;
-    transform: translate(-3px, -3px);
-    box-shadow: 4px 4px 0 #111;
-    text-decoration: none !important;
   }
 </style>
 
-<div class="sw-grid">
-  {% for project in projects %}
-  <a class="sw-card" href="{{ project.url }}" target="_blank" rel="noopener noreferrer">
-    <div class="sw-card-header">
-      <span class="sw-card-name">{{ project.name }}</span>
-      <i class="fab fa-github sw-github-icon"></i>
-    </div>
-    <div class="sw-card-body">
-      <p class="sw-description">{{ project.description }}</p>
-      <div class="sw-card-footer">
-        <div class="sw-badges">
-          {% for lang in project.languages %}
-          <span class="sw-badge" style="background-color: {{ lang.color }}18; color: {{ lang.color }}; border: 1.5px solid {{ lang.color }}55;">
-            <i class="{{ lang.icon }}" style="margin-right:3px;"></i>{{ lang.name }}
-          </span>
-          {% endfor %}
-        </div>
-        {% if project.role %}
-        <span class="sw-role">{{ project.role }}</span>
-        {% endif %}
+<a class="sw-card" href="{{ include.project.url }}" target="_blank" rel="noopener noreferrer">
+  <div class="sw-card-header">
+    <span class="sw-card-name">{{ include.project.name }}</span>
+    <i class="fab fa-github sw-github-icon"></i>
+  </div>
+  <div class="sw-card-body">
+    <p class="sw-description">{{ include.project.description }}</p>
+    <div class="sw-card-footer">
+      <div class="sw-badges">
+        {% for lang in include.project.languages %}
+        <span class="sw-badge" style="background-color: {{ lang.color }}18; color: {{ lang.color }}; border: 1.5px solid {{ lang.color }}55;">
+          <i class="{{ lang.icon }}" style="margin-right: 3px;"></i>{{ lang.name }}
+        </span>
+        {% endfor %}
       </div>
+      {% if include.project.role %}
+      <span class="sw-role">{{ include.project.role }}</span>
+      {% endif %}
     </div>
-  </a>
-  {% endfor %}
-</div>
-
-{% if config.show_more_button %}
-<div>
-  <a href="{{ config.button_link }}" target="_blank" rel="noopener noreferrer" class="sw-more-btn">
-    {{ config.button_text }} &nbsp;<i class="fab fa-github"></i>
-  </a>
-</div>
-{% endif %}
+  </div>
+</a>
