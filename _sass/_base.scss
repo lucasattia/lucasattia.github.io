@@ -1034,3 +1034,41 @@ nav[data-toggle="toc"] {
     padding-top: 0.5rem;
   }
 }
+
+
+.software-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin: 2rem 0;
+
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.software-more-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.55rem 1.2rem;
+  background: transparent;
+  color: var(--global-theme-color) !important;
+  border: 1.5px solid var(--global-theme-color);
+  border-radius: 4px;
+  text-decoration: none !important;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover {
+    background: var(--global-theme-color);
+    color: #fff !important;
+  }
+}
