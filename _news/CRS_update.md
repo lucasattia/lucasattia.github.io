@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My poster won one of the 10 Merck Poster Awards at [the 2024 Controlled Release Society Annual Meeting and Exposition](https://www.controlledreleasesociety.org/events/crs-2024-annual-meeting-and-expo) for my poster on my recent ACS AMI paper!
+My poster on my recent ACS AMI paper won one of the 10 Merck Poster Awards at [the 2024 Controlled Release Society Annual Meeting and Exposition](https://www.controlledreleasesociety.org/events/crs-2024-annual-meeting-and-expo)!
