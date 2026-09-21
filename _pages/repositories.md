@@ -2,7 +2,7 @@
 layout: page
 permalink: /software/
 title: software
-description: check out my open-source projects at the repos below
+description: check out my open-source contributions at the repos below
 nav: true
 nav_order: 3
 ---
