@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Upcoming: I'm giving a [webinar with Vecura](https://vecura.com/en/webinars/7-high-throughput-organic-solubility-prediction-with-fastsolv) on high-throughput organic solubility prediction with fastsolv on October 8!
+Upcoming: [webinar with Vecura](https://vecura.com/en/webinars/7-high-throughput-organic-solubility-prediction-with-fastsolv) on fastsolv on October 8!
