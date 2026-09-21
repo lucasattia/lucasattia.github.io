@@ -18,7 +18,7 @@ projects:
         color: "#4EAA25"
   - id: 2
     name: "fastsolv"
-    url: "https://github.com/lucasattia/fastsolv"
+    url: "https://github.com/JacksonBurns/fastsolv"
     description: "Python package, website, and paper code for fast solubility prediction of drug molecules"
     role: "Developer"
     languages:
@@ -34,7 +34,7 @@ projects:
         
   - id: 3
     name: "NanoParticleTools"
-    url: "https://github.com/lucasattia/NanoParticleTools"
+    url: "https://github.com/BlauGroup/NanoParticleTools"
     description: "Open-source toolkit for simulating and analyzing upconverting nanoparticle emission using kinetic Monte Carlo methods"
     role: "Developer"
     languages:
@@ -46,22 +46,10 @@ projects:
         color: "#EE4C2C"
 
   - id: 4
-    name: "crystalPBM"
-    url: "https://github.com/lucasattia/crystalPBM"
-    description: "Population balance model for simulating and analyzing batch crystallization processes"
-    role: "Developer"
-    languages:
-      - name: "Python"
-        icon: "fab fa-python"
-        color: "#3776AB"
-      - name: "Jupyter"
-        icon: "fas fa-book-open"
-        color: "#F37626"
-  - id: 5
     name: "vsa_explainer"
     url: "https://github.com/srijitseal/vsa_explainer"
     description: "Python package to visualize and explain RDKit VSA molecular descriptor atomic contributions"
-    role: "Contributor"
+    role: "Developer"
     languages:
       - name: "Python"
         icon: "fab fa-python"
@@ -70,9 +58,9 @@ projects:
         icon: "fas fa-flask"
         color: "#9467BD"
 
-  - id: 6
+  - id: 5
     name: "fastprop"
-    url: "https://github.com/lucasattia/fastprop"
+    url: "https://github.com/JacksonBurns/fastprop"
     description: "Fast molecular property prediction using mordredcommunity descriptors and deep learning"
     role: "Contributor"
     languages:
